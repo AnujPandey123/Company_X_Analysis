@@ -66,13 +66,13 @@ Key Features:
 ### 3.2 🔍 Exploratory Data Analysis
 
 #### Income vs Spending Score
-![Income vs Spending](images/92ae8166-ab56-41b8-ac4b-c379b2978ef5.png)
+![Income vs Spending](images/a.png)
 
 #### Age Distribution
-![Age Distribution](images/c40852d2-0aad-4643-8531-3118af28619b.png)
+![Age Distribution](images/b.png)
 
 #### Loyalty vs Engagement
-![Loyalty vs Engagement](images/2bda9bbf-7203-4c22-8094-4a4e2f291949.png)
+![Loyalty vs Engagement](images/c.png)
 
 EDA highlights strong correlations between income, spending, and loyalty — indicating well-defined customer behavior patterns.
 
@@ -89,7 +89,7 @@ EDA highlights strong correlations between income, spending, and loyalty — ind
 K-Means was applied after standardizing features. Optimal k=5 determined by elbow and silhouette analysis.
 
 #### Cluster Visualization
-![Cluster Visualization](images/7dad4093-6ce9-4da8-adc7-309ab11a5cb0.png)
+![Cluster Visualization](images/d.png)
 
 ---
 
@@ -105,7 +105,7 @@ Each cluster represents a **unique segment** with different value potential:
 | 4 | Low Income – Low Loyalty | Volatile or small sellers | Cost-efficient self-service model |
 
 #### Cluster Distribution
-![Cluster Distribution](images/7e9a1e96-0eef-4eff-80a0-289233128f8d.png)
+![Cluster Distribution](images/e.png)
 
 ---
 
