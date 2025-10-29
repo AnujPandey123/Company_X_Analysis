@@ -1,11 +1,11 @@
 #  Customer Segmentation for Global Expansion
 
-### 🚀 Project Overview
+###  Project Overview
 This project analyzes **customer segmentation** for **X**, a company empowering Indian brands to expand globally. Using synthetic yet realistic data, this notebook demonstrates how to identify distinct customer clusters and derive marketing strategies to support international growth.
 
 ---
 
-## 📘 Contents
+##  Contents
 
 1. [What is Customer Segmentation?](#1-what-is-customer-segmentation)  
 2. [The Challenge (X Context)](#2-the-challenge-x-context)  
@@ -78,14 +78,14 @@ EDA highlights strong correlations between income, spending, and loyalty — ind
 
 ---
 
-### 3.3 🧪 Hypotheses & Validation
+### 3.3  Hypotheses & Validation
 **Hypothesis 1:** High-income customers tend to have higher spending scores. ✅  
 **Hypothesis 2:** Younger customers show higher engagement levels. ✅  
 **Hypothesis 3:** Loyalty index is independent of age. ❌ (Moderate relationship found)
 
 ---
 
-### 3.4 🤖 K-Means Clustering (k=5)
+### 3.4  K-Means Clustering (k=5)
 K-Means was applied after standardizing features. Optimal k=5 determined by elbow and silhouette analysis.
 
 #### Cluster Visualization
@@ -134,13 +134,6 @@ A/B Testing Idea:
 - Python (pandas, seaborn, matplotlib, scikit-learn)  
 - Jupyter Notebook  
 - Synthetic data generation for demo
-
----
-
-## 📦 Next Steps
-- Integrate this pipeline into Company X’s internal CRM analytics dashboard.  
-- Replace synthetic data with real behavioral metrics.  
-- Deploy using FastAPI + MongoDB backend.
 
 ---
 
